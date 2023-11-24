@@ -205,7 +205,11 @@ footer {
     }
 
     footer {
-        width: 700px;
+        width: 570px;
+    }
+
+    .footer-contents h4{
+        margin-top: 30px;
     }
 
     .footer-contents p {
