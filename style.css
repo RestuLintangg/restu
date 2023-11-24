@@ -42,12 +42,6 @@ header{
     margin-top: 10px;
 }
 
-.box1 h1:hover {
-    background-color: #6c6d5c;
-    color: black;
-    font-size: 40px;
-} 
-
 .box1 p {
     text-align: center;
     padding: 10px;
@@ -87,6 +81,7 @@ li {
 .boxbesar2 {
     display: flex;
     margin-left: 110px;
+    padding-bottom: 50px;
 }
 
 .kotak1 {
@@ -127,6 +122,37 @@ li {
 
 .kotak2 ul {
     margin-top: 15px;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.logo {
+    margin-left: 300px;
+}
+
+.footer-contents h4 {
+    font-size: 20px;
+}
+
+.footer-contents p{
+    margin: 10px 150px 20px 0px;
+}
+
+.footer-contents li {
+    margin: 20px 50px 20px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-contents a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -176,6 +202,19 @@ li {
     .kotak1 {
         margin-bottom: 50px;
         width: 520px;
+    }
+
+    footer {
+        width: 700px;
+    }
+
+    .footer-contents p {
+        margin: 0px;
+        padding-right: 50px;
+    }
+
+    .logo {
+        margin-left: 0;
     }
 }
 
